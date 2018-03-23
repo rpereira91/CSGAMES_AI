@@ -93,6 +93,8 @@ celui-ci prend 10 de dégâts. S'il meurt, tout ce qu'il transporte est transfé
 python3 -m venv env
 source env/bin/activate
 
+# Installer les dépendances
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
@@ -101,7 +103,7 @@ pip install -r requirements.txt
 Utiliser la commande suivante:
 
 ```bash
-python3 main.py -j -m map1 -p BOT1 BOT2
+python3 main.py -m map1 -p BOT1 BOT2
 ```
 
 Arguments:</br>
@@ -115,7 +117,7 @@ http://localhost:5001
 
 ## Java
 
-Assurer que p4j est [installé](https://www.py4j.org/install.html#install-instructions) et qu'il est ajouté dans les dépendances de votre projet.
+Ajouter [py4j](https://www.py4j.org/install.html#install-instructions) dans les dépendances de votre projet.
 
 Dans le dossier `java`,
 
@@ -225,6 +227,8 @@ To accelerate the development, a pathfinder is provided. However, this pathfinde
 python3 -m venv env
 source env/bin/activate
 
+# Install the dependencies
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
@@ -233,7 +237,7 @@ pip install -r requirements.txt
 Use the following command:
 
 ```bash
-python3 main.py -j -m map1 -p BOT1 BOT2
+python3 main.py -m map1 -p BOT1 BOT2
 ```
 
 Arguments:</br>
@@ -243,7 +247,7 @@ Arguments:</br>
 
 ## Java
 
-[Install](https://www.py4j.org/install.html#install-instructions) p4j and add it to your project dependencies.
+Add [py4j](https://www.py4j.org/install.html#install-instructions) to your project dependencies.
 
 In the `java` folder,
 
