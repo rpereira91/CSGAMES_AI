@@ -123,6 +123,18 @@ Dans le dossier `java`,
 2. Démarrer le programme principal dans le fichier `JavaBotEntryPoint`
 3. Partir le main en python en ajoutant l'option -j.
 
+## Règles supplémentaires
+
+Vous ne pouvez pas installer de dépendances. Vous avez uniquement le droit d'utiliser ce qui est fourni.
+
+## Remise
+
+Envoyez votre un seul fichier zip contenant votre bot et tout autre fichier nécessaire à: <br/>
+mathieu.carpentier.3@ulaval.ca
+
+Assurez-vous de remettre votre code avant Samedi 11h30 AM.</br>
+Assurez-vous que votre courriel contient le nom de votre équipe.
+
 # AI Competition
 
 ## Context
@@ -238,3 +250,15 @@ In the `java` folder,
 1. Add your bot in the `JavaBotEntryPoint` file.
 2. Start the java program in `JavaBotEntryPoint`
 3. Start the python main with -j.
+
+## Other rules
+
+You cannot install dependencies. You can only use the ones given in the repository.
+
+## Submission
+
+Submit a single zip file containing your bot and any other necessary file at </br>
+mathieu.carpentier.3@ulaval.ca
+
+Make sure to submit before Sat. 11h30 AM.</br>
+Make sure to include your team name in the email.
