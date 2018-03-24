@@ -10,7 +10,7 @@ class PeacefulBot(Bot):
         
 
     def get_name(self):
-        return 'AgroBot'
+        return 'PeacefulBot'
 
     def turn(self, game_state, character_state, other_bots):
         super().turn(game_state, character_state, other_bots)
